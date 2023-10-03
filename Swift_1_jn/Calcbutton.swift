@@ -7,12 +7,17 @@
 
 import SwiftUI
 
-struct CalcButton: View {
+/*struct CalcButton: View {
+    var text: String
+    ar width: CGFloat
+    var height: CGFloat
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(text) {
+    
+ }
     }
 }
 
 #Preview {
-    CalcButton()
-}
+    CalcButton(text: "",)
+}*/

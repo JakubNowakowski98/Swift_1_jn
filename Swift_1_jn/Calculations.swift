@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct Calculations {
+    func calculate(napis: String) -> String? {
+        guard napis == "Ala" else {return nil}
+        return napis
+}
+
+}

@@ -16,6 +16,8 @@
 		3F10971C2ACC42EF00CDD6A3 /* Swift_1_jnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10971B2ACC42EF00CDD6A3 /* Swift_1_jnUITestsLaunchTests.swift */; };
 		3F10972F2ACC45C000CDD6A3 /* MyTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10972E2ACC45C000CDD6A3 /* MyTF.swift */; };
 		3F1097312ACC48FF00CDD6A3 /* MyFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1097302ACC48FF00CDD6A3 /* MyFunctions.swift */; };
+		3F1097332ACC4BCA00CDD6A3 /* Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1097322ACC4BCA00CDD6A3 /* Calculations.swift */; };
+		3F1097372ACC4C4E00CDD6A3 /* CalcButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1097362ACC4C4E00CDD6A3 /* CalcButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		3F10971B2ACC42EF00CDD6A3 /* Swift_1_jnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_1_jnUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3F10972E2ACC45C000CDD6A3 /* MyTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTF.swift; sourceTree = "<group>"; };
 		3F1097302ACC48FF00CDD6A3 /* MyFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFunctions.swift; sourceTree = "<group>"; };
+		3F1097322ACC4BCA00CDD6A3 /* Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculations.swift; sourceTree = "<group>"; };
+		3F1097362ACC4C4E00CDD6A3 /* CalcButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				3F1097022ACC42EF00CDD6A3 /* Assets.xcassets */,
 				3F1097042ACC42EF00CDD6A3 /* Preview Content */,
 				3F1097302ACC48FF00CDD6A3 /* MyFunctions.swift */,
+				3F1097322ACC4BCA00CDD6A3 /* Calculations.swift */,
+				3F1097362ACC4C4E00CDD6A3 /* CalcButton.swift */,
 			);
 			path = Swift_1_jn;
 			sourceTree = "<group>";
@@ -266,6 +272,8 @@
 				3F1097012ACC42EE00CDD6A3 /* ContentView.swift in Sources */,
 				3F10972F2ACC45C000CDD6A3 /* MyTF.swift in Sources */,
 				3F1096FF2ACC42EE00CDD6A3 /* Swift_1_jnApp.swift in Sources */,
+				3F1097332ACC4BCA00CDD6A3 /* Calculations.swift in Sources */,
+				3F1097372ACC4C4E00CDD6A3 /* CalcButton.swift in Sources */,
 				3F1097312ACC48FF00CDD6A3 /* MyFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
