@@ -14,6 +14,8 @@
 		3F1097102ACC42EF00CDD6A3 /* Swift_1_jnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10970F2ACC42EF00CDD6A3 /* Swift_1_jnTests.swift */; };
 		3F10971A2ACC42EF00CDD6A3 /* Swift_1_jnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1097192ACC42EF00CDD6A3 /* Swift_1_jnUITests.swift */; };
 		3F10971C2ACC42EF00CDD6A3 /* Swift_1_jnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10971B2ACC42EF00CDD6A3 /* Swift_1_jnUITestsLaunchTests.swift */; };
+		3F10972F2ACC45C000CDD6A3 /* MyTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10972E2ACC45C000CDD6A3 /* MyTF.swift */; };
+		3F1097312ACC48FF00CDD6A3 /* MyFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1097302ACC48FF00CDD6A3 /* MyFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		3F1097152ACC42EF00CDD6A3 /* Swift_1_jnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_1_jnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1097192ACC42EF00CDD6A3 /* Swift_1_jnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_1_jnUITests.swift; sourceTree = "<group>"; };
 		3F10971B2ACC42EF00CDD6A3 /* Swift_1_jnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_1_jnUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F10972E2ACC45C000CDD6A3 /* MyTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTF.swift; sourceTree = "<group>"; };
+		3F1097302ACC48FF00CDD6A3 /* MyFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +100,10 @@
 			children = (
 				3F1096FE2ACC42EE00CDD6A3 /* Swift_1_jnApp.swift */,
 				3F1097002ACC42EE00CDD6A3 /* ContentView.swift */,
+				3F10972E2ACC45C000CDD6A3 /* MyTF.swift */,
 				3F1097022ACC42EF00CDD6A3 /* Assets.xcassets */,
 				3F1097042ACC42EF00CDD6A3 /* Preview Content */,
+				3F1097302ACC48FF00CDD6A3 /* MyFunctions.swift */,
 			);
 			path = Swift_1_jn;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F1097012ACC42EE00CDD6A3 /* ContentView.swift in Sources */,
+				3F10972F2ACC45C000CDD6A3 /* MyTF.swift in Sources */,
 				3F1096FF2ACC42EE00CDD6A3 /* Swift_1_jnApp.swift in Sources */,
+				3F1097312ACC48FF00CDD6A3 /* MyFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

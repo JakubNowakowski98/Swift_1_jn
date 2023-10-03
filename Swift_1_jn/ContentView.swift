@@ -8,12 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var napis = "ALA"
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            MyTF(text: $napis)
+            //Text(napis).foregroundColor(.green).font(.largeTitle)
+            Button("sprawdź") {
+                guard let test = MyFunctions().jakasFun(napis: napis) else {
+                    napis = "Błąd"
+                    return
+                }
+            }
         }
         .padding()
     }
